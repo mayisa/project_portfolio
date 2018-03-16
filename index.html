@@ -4,12 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Project Portfolio - Maya Isaksson</title>
-<link href="https://fonts.googleapis.com/css?family=Coustard|Cutive|Glegoo|Lobster|Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Coustard" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" href="css/responsive_css.css">
 </head>
+
 <body>
   <div class="page_container">
+
+    <!-- Header with logo, name and title -->
     <div class="logo_container">
       <img class="logo" src="img/maya-logga2.png" alt="Logo">
     </div>
@@ -18,46 +22,76 @@
         <h1>Maya Isaksson</h1>
       </div>
       <div class="title">
-        <h3>Wannabe Front-end developer</h3>
+        <h3 class="title_text">Wannabe Front-end developer</h3>
       </div>
     </header>
 
-
-    <div class="main_image">
-      <img class="large_image" src="img/pexels-photo-326424.jpeg" alt="Here's the main image">
-    </div>
-<h2>Featured Work</h2>
-    <div class="featured_work">
-
-
-      <div class="project_container">
-        <img class="project_image" src="img/Pixel_art_gen.png" alt="Screenshot of Pixel Art Generator">
-        <h2 class="project_heading"> Pixel Art Generator </h2>
-        <p class="project_description">
-            A pixel art generator made for the Front end web developer Nanodegree on Udacity. Select your canvas size and color and get creative.
-        </p>
-        <p class="project_link"><a href="https://codepen.io/mayai/pen/jYprdy">Check it out!</a> </p>
+    <!-- A large main image   -->
+    <main>
+      <div class="main_image">
+        <img class="large_image" src="img/pexels-photo-326424.jpeg" alt="Here's the main image">
       </div>
 
-      <div class="project_container">
-        <img class="project_image" src="img/animal_trading_card.png" alt="Screenshot of Animal Trading Card, Saluki">
-        <h2 class="project_heading"> Animal Trading Card </h2>
-        <p class="project_description">
-            One of the first projecst for Udacity Front end Web Developer Nanodegree. Animal Trading card featuring facts about the beautiful Saluki.
-        </p>
-        <p class="project_link"><a href="ihttps://codepen.io/mayai/pen/LOrNBp">Check it out!</a></p>
-      </div>
+      <section>
+        <h2>Featured Work</h2>
+        <div class="featured_work">
 
-      <div class="project_container">
-        <img class="project_image" src="img/FPGA_projects.png" alt="Screenshot of Youtube playlist of FPGA projects">
-        <h2 class="project_heading"> FPGA Projects </h2>
-        <p class="project_description">
-            A collection of Youtube videos showing some of the projects I made for my TEIS (Applied Electronics for embedded systems) degree.
-        </p>
-        <p class="project_link"><a href="https://www.youtube.com/playlist?list=PL-eKl3Zb0w0YGtx5O5UIRErX7pxnCZ2MV">Check it out! </a></p>
-      </div>
+          <!-- Project section -->
 
-    </div>
+          <div class="project_container">
 
+            <div class="project_image_container">
+              <img class="project_image" src="img/Pixel_art_gen.png" alt="Screenshot of Pixel Art Generator">
+            </div>
+
+            <h2 class="project_heading"> Pixel Art Generator </h2>
+
+            <div class="project_text_container">
+              <p class="project_description">
+                A pixel art generator made for the Front end web developer Nanodegree on Udacity. Select your canvas size and color and get creative.
+              </p>
+              <p class="project_link"><a href="https://codepen.io/mayai/pen/jYprdy">Check it out!</a> </p>
+            </div>
+
+          </div>
+
+          <div class="project_container">
+
+            <div class="project_image_container">
+              <img class="project_image" src="img/animal_trading_card.png" alt="Screenshot of Animal Trading Card, Saluki">
+            </div>
+
+            <h2 class="project_heading"> Animal Trading Card </h2>
+
+            <div class="project_text_container">
+              <p class="project_description">
+                One of the first projecst for Udacity Front end Web Developer Nanodegree. Animal Trading card featuring facts about the beautiful Saluki.
+              </p>
+              <p class="project_link"><a href="ihttps://codepen.io/mayai/pen/LOrNBp">Check it out!</a></p>
+            </div>
+
+          </div>
+
+          <div class="project_container">
+
+            <div class="project_image_container">
+              <img class="project_image" src="img/FPGA_projects.png" alt="Screenshot of Youtube playlist of FPGA projects">
+            </div>
+
+            <h2 class="project_heading"> FPGA Projects </h2>
+
+            <div class="project_text_container">
+              <p class="project_description">
+                A collection of Youtube videos showing some of the projects I made for my TEIS (Applied Electronics for embedded systems) degree.
+              </p>
+              <p class="project_link"><a href="https://www.youtube.com/playlist?list=PL-eKl3Zb0w0YGtx5O5UIRErX7pxnCZ2MV">Check it out! </a></p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+    </main>
   </div>
 </body>
